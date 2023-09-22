@@ -1,0 +1,21 @@
+/**                 Tableau
+ * 
+ * Declare un tableau vide names 
+ * Ajouter "bibi", "Paul", et "Arthur" dans le tableau via la methode push
+ * 
+ * Pour chaque element du tableau
+ * 
+ * Ajouter a la fin "va a la peche"
+ * Afficher chaque element 
+ * 
+ */
+
+let names=[];
+names.push('bibi',"Paul",'Arthur');
+
+names.forEach(name =>{
+    name += 'va a la peche ';
+    console.log(name)
+})
+
+//les tableaux sont similaires aux tableaux sur python voir cours terminale sur les rappels des bases
